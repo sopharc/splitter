@@ -1,0 +1,54 @@
+* {
+  background: #c5e4e7;
+}
+
+body {
+  font-family: "Crimson Pro", serif;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  padding: 1.5em;
+}
+
+.title p {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 0.5em;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calc-box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+  height: 45vh;
+  border-radius: 20px;
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

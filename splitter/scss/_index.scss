@@ -1,0 +1,30 @@
+.title {
+  font-family: 'Open Sans', sans-serif;
+  padding: 1.5em;
+}
+
+.title p {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: 0.5em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.calc-box {
+  flex-direction: row;
+  width: 70%;
+  height: 45vh;
+  border-radius: 20px;
+  background-color: $white;
+  justify-content: space-around;
+  align-items: center;
+}
