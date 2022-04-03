@@ -37,6 +37,9 @@ body {
 }
 
 .calc-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -50,5 +53,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.calculator-section {
+  background-color: white;
+  height: 85%;
+  width: 50%;
+  margin: 30px;
+}
+
+.result-section {
+  background-color: #00494d;
+  border-radius: 15px;
+  height: 85%;
+  width: 50%;
+  margin: 30px;
 }
 /*# sourceMappingURL=style.css.map */

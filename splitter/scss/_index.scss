@@ -20,6 +20,7 @@
 }
 
 .calc-box {
+  display: flex;
   flex-direction: row;
   width: 70%;
   height: 45vh;
@@ -27,4 +28,19 @@
   background-color: $white;
   justify-content: space-around;
   align-items: center;
+}
+
+.calculator-section {
+  background-color: $white;
+  height: 85%;
+  width: 50%;
+  margin: 30px;
+}
+
+.result-section {
+  background-color: $darkblue;
+  border-radius: 15px;
+  height: 85%;
+  width: 50%;
+  margin: 30px;
 }
