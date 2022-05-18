@@ -17,6 +17,8 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  font-family: 'Crimson Pro', serif;
+  ;
 }
 
 .calc-box {
@@ -43,4 +45,24 @@
   height: 85%;
   width: 50%;
   margin: 30px;
+}
+
+.tip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.tip-text p {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em;
 }
